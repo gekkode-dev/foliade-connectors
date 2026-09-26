@@ -32,7 +32,7 @@ does not need to be replaced merely because the host cached an old tool list.
 Run these commands in your computer's terminal, outside a Codex conversation:
 
 ```sh
-codex plugin marketplace add https://gitlab.com/gekkode-public/foliade-connectors.git
+codex plugin marketplace add https://github.com/gekkode-dev/foliade-connectors.git
 codex plugin add foliade@foliade
 ```
 
@@ -96,7 +96,7 @@ authorization as in step 2. Start a new Codex task and verify the account.
 Run in Claude Code:
 
 ```text
-/plugin marketplace add https://gitlab.com/gekkode-public/foliade-connectors.git
+/plugin marketplace add https://github.com/gekkode-dev/foliade-connectors.git
 /plugin install foliade@foliade
 ```
 
