@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "foliade",
+  "displayName": "Foliade",
+  "version": "1.2.0",
+  "description": "Publish, personalize and enrich PDF catalogues, configure readers, themes, lead forms, tracking links and shelves through 34 OAuth MCP tools.",
+  "author": {
+    "name": "Foliade",
+    "email": "contact@gekkode.com",
+    "url": "https://foliade.gekkode.com/"
+  },
+  "homepage": "https://foliade.gekkode.com/fr/connecter-claude-code-flipbook",
+  "repository": "https://gitlab.com/gekkode-public/foliade-connectors",
+  "keywords": [
+    "flipbook",
+    "pdf",
+    "catalogue",
+    "mcp",
+    "publication"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.claude-mcp.json"
+}

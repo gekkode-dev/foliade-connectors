@@ -1,0 +1,20 @@
+Foliade connectors
+Copyright 2026 Damien Flandrin (Gekkode)
+
+This product includes software developed by Gekkode (https://gekkode.com).
+
+Scope of this licence
+---------------------
+The Apache License 2.0 covers the contents of this repository only: the plugin
+manifests, the MCP configuration files, the skill, the fallback client script
+and this documentation.
+
+It does NOT cover the Foliade service itself, its conversion engine, its API
+implementation, its database or any other part of the hosted product, none of
+which is distributed here. Use of the service is governed by its own terms:
+https://foliade.gekkode.com/en/cgu
+
+"Foliade" and "Gekkode", together with their logos, are trademarks of Damien
+Flandrin. As stated in section 6 of the licence, no trademark rights are
+granted: a modified version may not be distributed or promoted under these
+names.

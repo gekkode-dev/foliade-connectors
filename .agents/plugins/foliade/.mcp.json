@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "foliade": {
+      "type": "http",
+      "url": "https://foliade.gekkode.com/mcp"
+    }
+  }
+}

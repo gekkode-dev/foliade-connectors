@@ -1,0 +1,44 @@
+{
+  "name": "foliade",
+  "version": "1.2.0",
+  "description": "Publish, personalize and enrich PDF catalogues, configure readers, themes, lead forms, tracking links and shelves through 34 OAuth MCP tools.",
+  "author": {
+    "name": "Foliade",
+    "email": "contact@gekkode.com",
+    "url": "https://foliade.gekkode.com/"
+  },
+  "homepage": "https://foliade.gekkode.com/fr/connecter-codex-flipbook",
+  "repository": "https://gitlab.com/gekkode-public/foliade-connectors",
+  "keywords": [
+    "flipbook",
+    "pdf",
+    "catalogue",
+    "mcp",
+    "publication"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Foliade",
+    "shortDescription": "Connect your PDF catalogues to Codex.",
+    "longDescription": "34 MCP tools to upload PDFs, personalize readers and brand themes, configure chapters and lead capture, publish interactive content, manage tracking links and digital shelves. Features follow your plan; public changes require your request.",
+    "developerName": "Foliade",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://foliade.gekkode.com/",
+    "privacyPolicyURL": "https://foliade.gekkode.com/fr/confidentialite",
+    "termsOfServiceURL": "https://foliade.gekkode.com/fr/cgu",
+    "defaultPrompt": [
+      "Create a test PDF and send it to my Foliade account as a private draft.",
+      "List my Foliade catalogues.",
+      "Publish this PDF in Foliade and give me its public link.",
+      "Match this catalogue reader to the colours of its cover using MCP."
+    ],
+    "brandColor": "#ec3013",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

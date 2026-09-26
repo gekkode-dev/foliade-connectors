@@ -1,0 +1,19 @@
+{
+  "name": "foliade",
+  "interface": {
+    "displayName": "Foliade"
+  },
+  "plugins": [
+    {
+      "name": "foliade",
+      "source": {
+        "source": "local",
+        "path": "./.agents/plugins/foliade"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

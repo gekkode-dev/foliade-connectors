@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "foliade",
+  "owner": {
+    "name": "Foliade",
+    "email": "contact@gekkode.com"
+  },
+  "metadata": {
+    "description": "Plugins officiels Foliade pour la publication de flipbooks."
+  },
+  "plugins": [
+    {
+      "name": "foliade",
+      "source": "./.agents/plugins/foliade",
+      "description": "Publier et mesurer des catalogues Foliade depuis Claude Code.",
+      "category": "productivity",
+      "homepage": "https://foliade.gekkode.com/fr/connecter-claude-code-flipbook",
+      "tags": ["mcp", "pdf", "flipbook", "catalogue"]
+    }
+  ]
+}
