@@ -189,9 +189,9 @@ ChatGPT, Claude web, Claude Desktop or Cowork.
 
 Remove the old manually configured `foliade` server, install this plugin, and
 connect with OAuth. Revoke the old REST API key if unused elsewhere.
-The Python script in `scripts/foliade_mcp.py` remains an advanced STDIO fallback
-with its original five tools and API-key authentication. Neither current plugin
-manifest launches it.
+The old STDIO script with its API key is no longer shipped with the plugin: no
+manifest launched it, and a plugin should never read a credential from your
+machine. Connect through OAuth instead.
 
 ## Licence
 

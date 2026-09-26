@@ -10,6 +10,7 @@
     "url": "https://foliade.gekkode.com/"
   },
   "homepage": "https://foliade.gekkode.com/fr/connecter-claude-code-flipbook",
+  "privacyPolicyUrl": "https://foliade.gekkode.com/en/confidentialite",
   "repository": "https://github.com/gekkode-dev/foliade-connectors",
   "keywords": [
     "flipbook",
